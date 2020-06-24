@@ -3,6 +3,4 @@ MAINTAINER  Aze
 WORKDIR /go/src/
 COPY . .
 EXPOSE 2508
-ENTRYPOINT ["./app/main"]
-
-
+ENTRYPOINT ["./app/main/main"]
