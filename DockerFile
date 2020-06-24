@@ -1,0 +1,6 @@
+FROM alpine
+MAINTAINER  Aze
+WORKDIR /go/src/
+COPY . .
+EXPOSE 5725
+ENTRYPOINT ["./app/main"]
