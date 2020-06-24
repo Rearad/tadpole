@@ -2,5 +2,5 @@ FROM alpine
 MAINTAINER  Aze
 WORKDIR /go/src/
 COPY . .
-EXPOSE 5725
+EXPOSE 2508
 ENTRYPOINT ["./app/main"]
