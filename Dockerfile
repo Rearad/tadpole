@@ -1,6 +1,6 @@
 FROM alpine
 MAINTAINER  Aze
-WORKDIR /go/src/
-COPY . .
+WORKDIR /tmp/hello
+COPY ./app/main /tmp/main
 EXPOSE 2508
-ENTRYPOINT ["./app/main/main"]
+RUN chmod +x main
